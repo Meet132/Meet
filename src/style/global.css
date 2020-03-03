@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url('//db.onlinewebfonts.com/c/3e4e7976b088e9334a26ce0c9e2d33e6?family=Copyright+Klim+Type+Foundry');
+.prime{
+    text-align: center;
+    padding:"25px 0 55px";
+}
+.prime_block {
+    text-align: center;
+}
+.prime_header{
+    position: relative;
+    font-size: "60px !important";
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.isRed {
+    color: red;
+}
+.services-global__sub-head {
+    color: #232323;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+.prime__soaring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.prime__soaring-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.prime__soaring-text {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+}
+.prime__graphics {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    padding: 12px 28px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-family: 'Calibre-Medium',sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button.red {
+    border: 0;
+    color: #fff;
+    background-color: #ed3e44;
+    font-size: 20px;
+    text-decoration: none;
+}
+.featured{
+    margin-top: 20px;
+    padding: 35px 0 50px;
+    border-top: 1px solid #f0eff5
+}
+.featured__head{
+    color: #393939;
+    font-family: Calibre-Regular,sans-serif;
+    font-size: 20px;
+    line-height: 2;
+}
+.featured__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Contact_button_hover:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}   
+.bg-is-light-grey {
+    background-color: #f9f9fb;
+}
+.specification{
+    text-align: center;
+    padding: 80px 0 60px;
+}
+.specification__box {
+    margin-top: 60px;
+}
+.d-flex{
+    display: flex!important
+}
+.specification__box-top {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.specification__development {
+    min-width: 50px;
+    height: 45px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx0JXQDfoZWTaKTBDHG84MM31Utbue3-kzT1i4u9fznaA4xli-ZQ&s);
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+}
+
+.specification__development.software {
+    background-position-x: -32px;
+}
+.specification__right-box {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.specification__head {
+    color: #232323;
+    font-family: Poppins-Bold,sans-serif;
+    font-size: 24px;
+}
+.specification__head {
+    line-height: 30px;
+}
+.specification__text {
+    color: #232323;
+    font-family: Calibre-Regular,sans-serif;
+    font-size: 22px;
+    line-height: 1.36;
+    margin: 10px 0 0;
+}
+.specification__card {
+    min-width: 340px;
+    margin-bottom: 20px;
+    padding: 22px 35px 35px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,.05);
+    
+}
+.specification-services-help-you .specification__text {
+    margin: 10px 15px 0 0;
+}
+.specification__card.card-hover:hover {
+    text-decoration: none;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+} 
+.specification__card.card-hover:hover .specification__head {
+    color: #ed3e44;
+}
+.services-featured-section {
+    padding: 90px 0 0;
+}
+
+.services-global__sub-head{
+    color: #232323;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+}
+.homepage-discover-section .services-featured-section__box {
+    padding: 60px 0 30px;
+}
+.services-featured-section__image-hover img {
+    width: 100%;
+}
+.services-featured-section__title {
+    font-family: Poppins-Bold,sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: #232323;
+}
+.services-featured-section__description {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.services-featured-section__view {
+    margin-bottom: 20px;
+}
+.services-featured-section__view, .services-featured-section__view:hover {
+    color: #ed3e44;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+.services-featured-section__bottom-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.services-featured-section__number-head {
+    font-family: 'Poppins-Bold',sans-serif;
+    color: #3d4067;
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.services-featured-section__number-text {
+    font-size: 20px;
+    line-height: 22px;
+    max-width: 190px;
+}
+.arrow-css {
+    display: inline-block;
+    position: relative;
+    width: 17px;
+    height: 1px;
+    margin-left: 5px;
+    background-color: #ed3e44;
+    vertical-align: middle;
+}
+.arrow-css:after, .arrow-css:before {
+    position: absolute;
+    right: -1px;
+    width: 6px;
+    height: 1px;
+    background-color: #ed3e44;
+    content: "";
+}
+.arrow-css:before {
+    top: -2px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow-css:after {
+    top: 2px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.arrow-css:after,.arrow-css:before {
+    position: absolute;
+    right: -1px;
+    width: 6px;
+    height: 1px;
+    background-color: #ed3e44;
+    content: "";
+}
+.services-featured-section__image-hover:hover{
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.services-featured-section__title:hover{
+    text-decoration: none;
+    color: #ed3e44;
+}
+.services-featured-section__view:hover{
+    text-decoration: none;
+}
+.services-featured-section__view:hover .arrow-css{
+    -webkit-transform: translateX(-5px);
+    transform: translateX(5px);
+}
+.services-featured-section__box.services-featured-section__image-hover:hover{
+    -webkit-transform: translateY(-5px);
+    transform: translateY(5px);
+}
